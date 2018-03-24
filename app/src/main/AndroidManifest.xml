@@ -17,7 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".min_st_hd_login_activity" />
-        <activity android:name=".fgt_pass_activity"></activity>
+        <activity android:name=".fgt_pass_activity" />
+        <activity android:name=".splash_activity" />
+        <activity
+            android:name=".nav_home_activity"
+            android:label="@string/title_activity_nav_home_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".product_activity"></activity>
     </application>
 
 </manifest>
