@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".verify_trib_activity" />
+        <activity android:name=".update_trib_activity" />
+        <activity android:name=".events_details_activity" />
+        <activity android:name=".events_input_activity" />
+        <activity android:name=".eligibility_pdf_activity" />
+        <activity android:name=".navigation_bar_activity"></activity>
     </application>
 
 </manifest>

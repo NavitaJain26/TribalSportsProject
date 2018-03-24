@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TribalSports</string>
+    <string-array name="status">
+        <item itemTextColor="@color/green">Accept</item>
+        <item itemTextColor="@color/red">Reject</item>
+    </string-array>
 </resources>
