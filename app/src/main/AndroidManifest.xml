@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".nav_activity"
+            android:label="@string/title_activity_nav_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".reg_activity" />
+        <activity android:name=".feedback_activity" />
+        <activity android:name=".Main_tri_reg_Activity" />
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".nameActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".login" />
+        <activity android:name=".log_regis" />
+        <activity android:name=".upload_img" />
+        <activity android:name=".Sports_eli_Activity"></activity>
     </application>
 
 </manifest>

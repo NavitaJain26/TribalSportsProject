@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:text="Feedback/Suggestion(NGO's and Other's)"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="19dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="83dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="19dp"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="162dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_marginLeft="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="254dp" />
+   </LinearLayout>
+</android.support.constraint.ConstraintLayout>
