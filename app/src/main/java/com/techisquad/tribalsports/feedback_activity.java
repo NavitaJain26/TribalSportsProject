@@ -3,13 +3,11 @@ package com.techisquad.tribalsports;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class login_activity extends AppCompatActivity {
+public class feedback_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //TODO Remove the following comment once we receive the layout files
-        setContentView(R.layout.login_layout);
+        setContentView(R.layout.feedback_layout_activity);
     }
 }
