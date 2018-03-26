@@ -13,7 +13,6 @@ public class login_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //TODO Remove the following comment once we receive the layout files
         setContentView(R.layout.login_layout);
         mybutton=findViewById(R.id.but1);
         mybutton.setOnClickListener(new View.OnClickListener(){

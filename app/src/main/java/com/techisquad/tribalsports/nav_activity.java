@@ -17,18 +17,18 @@ import android.view.MenuItem;
 public class nav_activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    //TODO Remove thsi method once received the XML
+    //TODO Remove this method once received the XML
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return false;
     }
-    //TODO Remove thsi method once received the XML
+    //TODO Remove this method once received the XML
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
 
-    //TODO Remove commnets fromt he following part
+    //TODO Remove commnets from the following part
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
