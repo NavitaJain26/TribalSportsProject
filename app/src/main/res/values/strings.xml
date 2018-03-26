@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TribalSports</string>
+
     <string name="title_activity_nav_activity">nav_activity</string>
+
+    <string name="title_activity_nav_home_activity">nav_home_activity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

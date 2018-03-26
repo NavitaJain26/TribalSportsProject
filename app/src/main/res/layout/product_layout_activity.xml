@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techisquad.tribalsports.product_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Product"
+                        android:textSize="30dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Item Name"
+                        android:layout_weight="1"
+                        android:textSize="3mm"
+                        android:layout_marginLeft="20dp"/>
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Units"
+                        android:layout_weight="1"
+                        android:textSize="3mm"
+                        android:layout_marginLeft="20dp"/>
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Estimate Cost"
+                        android:layout_weight="1"
+                        android:textSize="3mm"
+                        android:layout_marginLeft="20dp"/>
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Discription:"
+                        android:layout_weight="1"
+                        android:textSize="3mm"
+                        android:layout_marginLeft="20dp"/>
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:layout_marginRight="10dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="Submit"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <Button
+                        android:layout_width="180dp"
+                        android:layout_height="40dp"
+                        android:text="Save and Add New"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="30dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
