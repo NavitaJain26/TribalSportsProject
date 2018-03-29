@@ -48,8 +48,18 @@
         <activity android:name=".events_details_activity" />
         <activity android:name=".events_input_activity" />
         <activity android:name=".eligibility_pdf_activity" />
-        <activity android:name=".navigation_bar_activity"></activity>
 
+        <!--<activity android:name=".navigation_bar_activity"></activity>-->
+
+
+        <activity android:name=".navigation_bar_activity" />
+        <activity android:name=".ngo_activity" />
+        <activity android:name=".fld_ofcr_activity" />
+        <activity android:name=".dist_trn_activity" />
+        <activity android:name=".rept_activity" />
+        <activity android:name=".rept_comp_activity" />
+        <activity android:name=".rept_rec_activity" />
+        <activity android:name=".rept_sent_activity"></activity>
     </application>
 
 </manifest>
