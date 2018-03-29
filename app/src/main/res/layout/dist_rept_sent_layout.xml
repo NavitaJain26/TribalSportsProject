@@ -4,7 +4,7 @@
     <!--xmlns:tools="http://schemas.android.com/tools"-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="match_parent"-->
-    <!--tools:context="com.techisquad.tribalsports.fld_ofcr_activity">-->
+    <!--tools:context="com.techisquad.tribalsports.dist_rept_sent_activity">-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Field Officer"
+                    android:text="Sent Report"
                     android:textAlignment="center"
                     android:textSize="25dp"/>
             </LinearLayout>
@@ -43,46 +43,19 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_prof"
+                    android:id="@+id/dist_hd_sent_req"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
-                    android:text="Your Profile"
+                    android:text="Requirement Request"
                     />
 
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_verify"
+                    android:id="@+id/dist_sent_trib_aloc"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
-                    android:text="Candidate Verification"
-                    />
-
-                <Button
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_event"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="85dp"
-                    android:text="Events"
-                    />
-
-                <Button
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_trib"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="85dp"
-                    android:text="Tribal Details"
-                    />
-
-                <Button
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_feed"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="85dp"
-                    android:text="Complain/Feedback"
+                    android:text="Tribal Allocation"
                     />
             </LinearLayout>
         </LinearLayout>
@@ -90,5 +63,4 @@
 </LinearLayout>
 
 
-
-    <!--</android.support.constraint.ConstraintLayout>-->
+<!--</android.support.constraint.ConstraintLayout>-->

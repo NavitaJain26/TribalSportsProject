@@ -44,7 +44,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rept_comp"
+                    android:id="@+id/dist_rept_comp"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Compose Report"
@@ -53,7 +53,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rept_rec"
+                    android:id="@+id/dist_rept_rec"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Receive Report"
@@ -62,7 +62,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rept_sent"
+                    android:id="@+id/dist_rept_sent"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Sent Report"

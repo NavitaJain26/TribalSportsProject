@@ -16,7 +16,7 @@ public class rept_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rept_layout);
 
-        compose=findViewById(R.id.rept_comp);
+        compose=findViewById(R.id.dist_rept_comp);
         compose.setOnClickListener(new View.OnClickListener(){
             @Override
 
@@ -28,7 +28,7 @@ public class rept_activity extends AppCompatActivity {
 
         });
 
-        receive=findViewById(R.id.rept_rec);
+        receive=findViewById(R.id.dist_rept_rec);
         receive.setOnClickListener(new View.OnClickListener(){
             @Override
 
@@ -40,7 +40,7 @@ public class rept_activity extends AppCompatActivity {
 
         });
 
-        sent=findViewById(R.id.rept_sent);
+        sent=findViewById(R.id.dist_rept_sent);
        sent.setOnClickListener(new View.OnClickListener(){
             @Override
 
