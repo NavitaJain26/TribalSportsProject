@@ -20,6 +20,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update Tribal Details"
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,7 +44,7 @@
             android:textSize="3mm"
             android:text="Name"
             android:layout_marginLeft="20dp"
-
+            android:layout_marginTop="10dp"
 
             />
 
@@ -64,9 +77,9 @@
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_marginRight="10dp"
-            android:inputType="number"
             android:focusable="true"
-            />
+            android:inputType="number"
+             />
 
 
     </LinearLayout>
@@ -246,19 +259,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Update"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="145dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="2dp"
+            android:id="@+id/update_trib"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="2dp"
-            android:id="@+id/submit1"/>
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Submit"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:id="@+id/submit1"/>-->
     </LinearLayout>
         </LinearLayout>
     </ScrollView>

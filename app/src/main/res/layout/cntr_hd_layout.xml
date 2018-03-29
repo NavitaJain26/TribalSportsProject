@@ -4,7 +4,7 @@
     <!--xmlns:tools="http://schemas.android.com/tools"-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="match_parent"-->
-    <!--tools:context="com.techisquad.tribalsports.fld_ofcr_activity">-->
+    <!--tools:context="com.techisquad.tribalsports.cntr_hd_activity">-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Field Officer"
+                    android:text="Centre Head"
                     android:textAlignment="center"
                     android:textSize="25dp"/>
             </LinearLayout>
@@ -43,7 +43,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_prof"
+                    android:id="@+id/dist_trn_prof"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Your Profile"
@@ -52,25 +52,16 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_verify"
+                    android:id="@+id/dist_trn_det"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
-                    android:text="Candidate Verification"
+                    android:text="District Trainer Details"
                     />
 
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_event"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="85dp"
-                    android:text="Events"
-                    />
-
-                <Button
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_trib"
+                    android:id="@+id/dist_trn_trib"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Tribal Details"
@@ -79,7 +70,17 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/fld_ofcr_feed"
+                    android:id="@+id/cntr_hd_rept"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="85dp"
+                    android:text="Report"
+                    />
+
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dist_trn_feed"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Complain/Feedback"
@@ -90,5 +91,4 @@
 </LinearLayout>
 
 
-
-    <!--</android.support.constraint.ConstraintLayout>-->
+<!--</android.support.constraint.ConstraintLayout>-->

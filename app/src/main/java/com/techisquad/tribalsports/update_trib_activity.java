@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 
 public class update_trib_activity extends AppCompatActivity {
-    Button submit;
+    Button update;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,13 +25,13 @@ public class update_trib_activity extends AppCompatActivity {
 
         myspinner.setAdapter(myAdapter);
 
-        submit=findViewById(R.id.submit1);
-        submit.setOnClickListener(new View.OnClickListener(){
+        update=findViewById(R.id.update_trib);
+        update.setOnClickListener(new View.OnClickListener(){
             @Override
 
             public void onClick(View view)
             {
-                Intent myIntent=new Intent(update_trib_activity.this,events_details_activity.class);        //intent on button
+                Intent myIntent=new Intent(update_trib_activity.this,verify_trib_activity.class);        //intent on button
                 update_trib_activity.this.startActivity(myIntent);
             }
 
