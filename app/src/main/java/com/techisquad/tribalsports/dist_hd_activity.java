@@ -11,6 +11,8 @@ public class dist_hd_activity extends AppCompatActivity {
 
     Button dis_hd_report;
     Button dist_event;
+    Button dist_profile;
+    Button dist_feed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,30 @@ public class dist_hd_activity extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent myIntent=new Intent(dist_hd_activity.this,events_input_activity.class);        //intent on button
+                dist_hd_activity.this.startActivity(myIntent);
+            }
+
+        });
+
+        dist_profile=findViewById(R.id.dist_hd_prof);
+        dist_profile.setOnClickListener(new View.OnClickListener(){
+            @Override
+
+            public void onClick(View view)
+            {
+                Intent myIntent=new Intent(dist_hd_activity.this,dist_hd_prf_activity.class);        //intent on button
+                dist_hd_activity.this.startActivity(myIntent);
+            }
+
+        });
+
+        dist_feed=findViewById(R.id.dist_hd_feed);
+        dist_feed.setOnClickListener(new View.OnClickListener(){
+            @Override
+
+            public void onClick(View view)
+            {
+                Intent myIntent=new Intent(dist_hd_activity.this,feedback_activity.class);        //intent on button
                 dist_hd_activity.this.startActivity(myIntent);
             }
 

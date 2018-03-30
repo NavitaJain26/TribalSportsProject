@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login_activity">
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,7 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".nameActivity" />
         <activity android:name=".Main3Activity" />
-        <activity android:name=".login" />
+        <activity android:name=".login_activity" />
         <activity android:name=".log_regis" />
         <activity android:name=".upload_img" />
         <activity android:name=".Sports_eli_Activity" />
@@ -55,7 +55,10 @@
         <activity android:name=".rept_comp_activity" />
         <activity android:name=".rept_rec_activity" />
         <activity android:name=".rept_sent_activity" />
-        <activity android:name=".fld_ofcr_prf_activity"></activity>
+        <activity android:name=".fld_ofcr_prf_activity" />
+        <activity android:name=".dist_trn_prf_activity" />
+        <activity android:name=".dist_hd_prf_activity" />
+        <activity android:name=".cntr_hd_prf_activity"></activity>
     </application>
 
 </manifest>

@@ -43,7 +43,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/dist_trn_prof"
+                    android:id="@+id/cntr_hd_prof"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Your Profile"
@@ -52,7 +52,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/dist_trn_det"
+                    android:id="@+id/cntr_hd_det"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="District Trainer Details"
@@ -61,7 +61,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/dist_trn_trib"
+                    android:id="@+id/cntr_hd_trib"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Tribal Details"
@@ -80,7 +80,7 @@
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/dist_trn_feed"
+                    android:id="@+id/cntr_hd_feed"
                     android:layout_marginTop="40dp"
                     android:layout_marginLeft="85dp"
                     android:text="Complain/Feedback"

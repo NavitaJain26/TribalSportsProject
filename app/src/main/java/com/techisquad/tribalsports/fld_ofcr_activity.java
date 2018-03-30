@@ -10,6 +10,7 @@ public class fld_ofcr_activity extends AppCompatActivity {
 
     Button verify;
     Button event;
+    Button feed_fld;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,18 @@ public class fld_ofcr_activity extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent myIntent=new Intent(fld_ofcr_activity.this,events_details_activity.class);        //intent on button
+                fld_ofcr_activity.this.startActivity(myIntent);
+            }
+
+        });
+
+        feed_fld=findViewById(R.id.fld_ofcr_feed);
+        feed_fld.setOnClickListener(new View.OnClickListener(){
+            @Override
+
+            public void onClick(View view)
+            {
+                Intent myIntent=new Intent(fld_ofcr_activity.this,feedback_activity.class);        //intent on button
                 fld_ofcr_activity.this.startActivity(myIntent);
             }
 
