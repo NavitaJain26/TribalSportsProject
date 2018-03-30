@@ -9,7 +9,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#CCFF90">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -31,7 +32,8 @@
                     android:layout_height="wrap_content"
                     android:text="Sent Report"
                     android:textAlignment="center"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    android:background="#E3F2FD"/>
             </LinearLayout>
 
 

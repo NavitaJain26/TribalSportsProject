@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
 
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -14,6 +15,7 @@
             android:id="@+id/textView"
             android:layout_width="290dp"
             android:layout_height="50dp"
+            android:textColor="#1B5E20"
             android:text="Feedback/Suggestion(NGO's and Other's)"
             android:textSize="17dp"
             tools:layout_editor_absoluteX="58dp"

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.techisquad.tribalsports.product_activity">
+    tools:context="com.techisquad.tribalsports.product_activity"
+    android:background="#E3F2FD">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,6 +33,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Product"
+                        android:textColor="#1B5E20"
                         android:textSize="30dp"
                         android:layout_weight="1"
                         android:textAlignment="center"/>

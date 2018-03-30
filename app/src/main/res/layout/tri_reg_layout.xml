@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.techisquad.tribalsports.Main_tri_reg_Activity">
+    tools:context="com.techisquad.tribalsports.Main_tri_reg_Activity"
+    android:background="#E3F2FD">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Tribal Registration"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="#1B5E20"/>
 
 
         <LinearLayout

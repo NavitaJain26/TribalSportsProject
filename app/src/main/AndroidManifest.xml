@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login">
+        <activity android:name=".splash_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,7 +33,7 @@
         <activity android:name=".Sports_eli_Activity" />
         <activity android:name=".min_st_hd_login_activity" />
         <activity android:name=".fgt_pass_activity" />
-        <activity android:name=".splash_activity" />
+        <activity android:name=".login" />
         <activity
             android:name=".nav_home_activity"
             android:label="@string/title_activity_nav_home_activity"
