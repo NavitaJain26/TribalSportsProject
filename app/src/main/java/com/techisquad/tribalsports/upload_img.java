@@ -1,5 +1,4 @@
 package com.techisquad.tribalsports;
-import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.BitmapFactory;
@@ -10,7 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.view.View;
-import android.view.View.OnClickListener;
 
 public class upload_img extends AppCompatActivity {
 
@@ -21,7 +19,7 @@ public class upload_img extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload_img);
+        setContentView(R.layout.upload_img_layout);
 
         Button buttonLoadImage = (Button) findViewById(R.id.buttonLoadPicture);
         buttonLoadImage.setOnClickListener(new View.OnClickListener() {

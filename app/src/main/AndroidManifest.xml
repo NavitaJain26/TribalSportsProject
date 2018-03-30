@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".login_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".nav_activity"
             android:label="@string/title_activity_nav_activity"
@@ -32,8 +30,7 @@
         <activity android:name=".login" />
         <activity android:name=".log_regis" />
         <activity android:name=".upload_img" />
-        <activity android:name=".Sports_eli_Activity"></activity>
-
+        <activity android:name=".Sports_eli_Activity" />
         <activity android:name=".min_st_hd_login_activity" />
         <activity android:name=".fgt_pass_activity" />
         <activity android:name=".splash_activity" />
@@ -41,16 +38,14 @@
             android:name=".nav_home_activity"
             android:label="@string/title_activity_nav_home_activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".product_activity"></activity>
-
+        <activity android:name=".product_activity" />
         <activity android:name=".verify_trib_activity" />
         <activity android:name=".update_trib_activity" />
         <activity android:name=".events_details_activity" />
         <activity android:name=".events_input_activity" />
         <activity android:name=".eligibility_pdf_activity" />
 
-        <!--<activity android:name=".navigation_bar_activity"></activity>-->
-
+        <!-- <activity android:name=".navigation_bar_activity"></activity> -->
 
         <activity android:name=".navigation_bar_activity" />
         <activity android:name=".ngo_activity" />
@@ -59,7 +54,8 @@
         <activity android:name=".rept_activity" />
         <activity android:name=".rept_comp_activity" />
         <activity android:name=".rept_rec_activity" />
-        <activity android:name=".rept_sent_activity"></activity>
+        <activity android:name=".rept_sent_activity" />
+        <activity android:name=".fld_ofcr_prf_activity"></activity>
     </application>
 
 </manifest>

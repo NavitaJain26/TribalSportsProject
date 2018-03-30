@@ -13,7 +13,16 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:orientation="horizontal">
@@ -278,6 +287,8 @@
         android:layout_height="wrap_content"
         android:text="Button" />
     </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
 
 

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techisquad.tribalsports.fld_ofcr_prf_activity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Field Officer Details"
+                    android:textSize="25dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date of Birth"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="51dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:textSize="19dp"
+                        android:layout_weight="1"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Male"
+                        android:textSize="10dp"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Female"
+                        android:textSize="10dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Others"
+                        android:textSize="10dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sports"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+
+
+                    <Spinner
+                        android:id="@+id/Sports_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/Sports_array" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="State"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <Spinner
+                        android:id="@+id/State_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/State_array"
+                        android:prompt="@string/Sports"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="District"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <Spinner
+                        android:id="@+id/District_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/District_array"
+                        android:prompt="@string/District"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Password"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Confirm Password"
+                        android:textSize="19dp"
+                        tools:layout_editor_absoluteX="257dp"
+                        tools:layout_editor_absoluteY="97dp" />
+
+                    <EditText
+                        android:id="@+id/editText21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="83dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    tools:layout_editor_absoluteX="28dp"
+                    tools:layout_editor_absoluteY="254dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
